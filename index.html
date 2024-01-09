@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Home</title>
+  <!-- Start Font Awsome -->
+  <link rel="stylesheet" href="./css/all.min.css">
+  <!-- Start Boot Strap  -->
+  <link rel="stylesheet" href="./css/bootstrap.min.css">
+  <!-- Start Main Style -->
+  <link rel="stylesheet" href="./css/mainStyle.css">
+</head>
+
+<body>
+
+
+
+
+  <section id="games" class="games">
+    <header>
+      <img src="./imges/wraper.png" alt="header-background">
+    </header>
+    <nav class="position-sticky navbar navbar-expand-lg">
+      <div class="container py-2 d-flex justify-content-between align-items-center  col-md-6 col-lg-9 mx-auto">
+        <div class="nav-brand">
+          <h1 class="mb-0 headerFonts text-light text-uppercase">
+            <img src="./imges/logo-sm.png" alt="pageLogo">
+            game reviews
+          </h1>
+        </div>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div id="navbarSupportedContent" class="collapse navbar-collapse  justify-content-end">
+          <ul class="navbar-nav list-unstyled d-lg-flex mb-0">
+            <li class="nav-item my-2 my-lg-0"><a class="navlink active" role="button">mmorpg</a></li>
+            <li class="nav-item my-2 my-lg-0"><a class="navlink" role="button">shooter</a></li>
+            <li class="nav-item my-2 my-lg-0"><a class="navlink" role="button">sailing</a></li>
+            <li class="nav-item my-2 my-lg-0"><a class="navlink" role="button">permadeath</a></li>
+            <li class="nav-item my-2 my-lg-0"><a class="navlink" role="button">superhero</a></li>
+            <li class="nav-item my-2 my-lg-0"><a class="navlink" role="button">pixel</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <main>
+      <div class="container">
+        <div id="itemCard" class="row g-3 row-cols-1 row-cols-md-2 row-cols-lg-3 row-cols-lg-4 mt-3">
+
+        </div>
+      </div>
+    </main>
+  </section>
+  <section id="details" class="details d-none position-relative">
+    <div class="container">
+      <header class="d-flex justify-content-between align-items-center py-4">
+        <h2 class="text-light headerFonts">Details Game</h2>
+        <button id="CloseBtn" class="btn-close btn-close-white"></button>
+      </header>
+      <main>
+        <div id="detilesBody" class="row">
+        </div>
+      </main>
+    </div>
+  </section>
+  <div id="loading" class="loading d-none">
+    <span class="loader"></span>
+  </div>
+
+
+
+  <!-- Start Bootstrap js  -->
+  <script src="./js/bootstrap.bundle.min.js"></script>
+  <!-- Start Main js  -->
+  <!-- <script  src="./js/Mainjs.js"></script>
+  <script  src="./js/index.js"></script>
+  <script  src="./js/ui.js"></script> -->
+  <script src="./js/index.js" type="module"></script>
+  <!-- <script  src="./js/details.js"></script> -->
+</body>
+
+</html>
+
+<!-- type="module"
+type="module"
+type="module"
+type="module"
+type="module" -->
